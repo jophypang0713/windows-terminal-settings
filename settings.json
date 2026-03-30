@@ -4,9 +4,9 @@
     "actions": [],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{4b5f084c-90ab-4b0b-9b4b-f893395de318}",
     "initialCols": 110,
-    "keybindings": 
+    "keybindings":
     [
         {
             "id": "Terminal.CopyToClipboard",
@@ -21,33 +21,33 @@
             "keys": "alt+shift+d"
         }
     ],
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
-            "colorScheme": 
+            "colorScheme":
             {
                 "dark": "Andromeda",
                 "light": "iceberg-light"
             },
             "cursorShape": "filledBox",
             "elevate": false,
-            "font": 
+            "font":
             {
                 "face": "Hack Nerd Font",
                 "weight": "semi-bold"
             },
-            "opacity": 65,
+            "opacity": 75,
             "scrollbarState": "always",
             "useAcrylic": true
         },
-        "list": 
+        "list":
         [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -68,20 +68,22 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "name": "Git Bash",
                 "source": "Git"
+            },
+            {
+                "commandline": "C:\\Program Files\\PowerShell\\7-preview\\preview\\pwsh-preview.cmd",
+                "guid": "{4b5f084c-90ab-4b0b-9b4b-f893395de318}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\PowerShell\\7-preview\\assets\\Powershell_black.ico",
+                "name": "Powershell Preview",
+                "tabTitle": "Powershell Preview"
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#262A33",
